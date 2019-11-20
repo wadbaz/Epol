@@ -13,7 +13,7 @@ public class Main {
         for (int i=0; i<9; i++){
             System.out.println("["+(i+1)+"]="+strOne[i]+";");
         }
-        System.out.println("Введите строку которая будет содержать в себе элементы из 1-го массива (не бодьше 9) разделенные пробелом");
+        System.out.println("Введите строку которая будет содержать в себе элементы из 1-го массива (не больше 9) разделенные пробелом");
         String[] strTwo = new Scanner(System.in).nextLine().split(" +");
         in.close();
 
